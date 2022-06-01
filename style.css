@@ -1,8 +1,7 @@
-
-
 body {
     background-color: #fbfbfb;
     }
+
     @media (min-width: 991.98px) {
     main {
     padding-left: 240px;
@@ -26,6 +25,7 @@ body {
     width: 150%;
     }
     }
+    
     .sidebar .active {
     border-radius: 5px;
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
@@ -39,6 +39,7 @@ body {
     overflow-x: hidden;
     overflow-y: auto; 
     }
+
 
 .lgp {
     background-color: #4D8CBA;
