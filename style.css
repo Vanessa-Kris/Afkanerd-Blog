@@ -3,7 +3,7 @@
 
 .lgp {
     background-color: #4D8CBA;
-
+    height: 100%;
 }
 
 .lgf {
@@ -40,7 +40,7 @@
 }
 
 .icons {
-    line-height: 300px;
+    line-height: 200px;
     text-align: center;
 }
 
