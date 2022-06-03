@@ -1,5 +1,5 @@
 body {
-    background-color: #fbfbfb;
+    background-color: #ffffff;
 }
 
 @media (min-width: 991.98px) {
@@ -57,7 +57,7 @@ body {
     color: #072646;
     font-weight: 580;
     font-size: 30px;
-    font-family: Oxygen, 'Open Sans', sans-serif;
+    font-family: Ubuntu, sans-serif;
 }
 
 .logo {
@@ -142,7 +142,7 @@ body {
 }
 
 .lgf .search-container button:hover {
-    background: #ccc;
+    opacity: 50%;
 }
 
 @media screen and (max-width: 600px) {
@@ -156,9 +156,9 @@ body {
         float: none;
         display: block;
         text-align: left;
-        width: 100%;
+        width: 70%;
         margin: 0;
-        padding: 14px;
+        padding: 10px;
     }
 
     .lgf input[type=text] {
@@ -168,4 +168,5 @@ body {
 
 .btn .fa-solid {
     color: #072646;
+   
 }
