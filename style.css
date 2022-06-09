@@ -14,7 +14,6 @@ body {
     top: 0;
     bottom: 0;
     left: 0;
-    /* padding: 58px 0 0; */
     box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
     width: 340px;
     z-index: 600;
@@ -83,7 +82,8 @@ body {
     font-family: Ubuntu, sans-serif;
 }
 
-.icons {
+.sidebar .icons {
+    position: relative;
     line-height: 300px;
     text-align: center;
 }
@@ -93,7 +93,7 @@ body {
 .fa-solid {
     width: 38px;
     color: #ffffff;
-    display: inline-block;
+     display: inline-flex; 
 }
 
 .fa:hover {
@@ -169,4 +169,12 @@ body {
 .btn .fa-solid {
     color: #072646;
    
+}
+
+.text {
+    color: #072646;
+}
+
+.row .img-responsive {
+    width: 25%;
 }
