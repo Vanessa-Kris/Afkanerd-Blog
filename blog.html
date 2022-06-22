@@ -28,45 +28,87 @@
             </div>
 
             <div class="icons">
-               <a href="https://github.com/Afkanerd"><i class="fa-brands fa-github fa-lg"></i> </a> 
-              <a href="https://twitter.com/afkanerd"><i class="fa-brands fa-twitter fa-lg"></i> </a>
-              <a href="mailto: developers@afkanerd.com"><i class="fa-solid fa-envelope fa-lg"></i></a> 
-              <a href=""> <i class="fa fa-slack fa-lg"></i> </a> 
-               <a href="https://afkanerd.com/"><i class="fa fa-google-plus-official fa-lg"></i> </a>
-            </div>
+                <i class="fa-brands fa-github fa-lg"></i> &nbsp;
+                <i class="fa-brands fa-twitter fa-lg"></i> &nbsp;
+                <i class="fa-solid fa-envelope fa-lg"></i> &nbsp;
+                <i class="fa-brands fa-slack fa-lg"></i> &nbsp;
+                <i class="fa-solid fa-link"></i> &nbsp;
+        
+              </div>
         </div>
-        </nav>
+    </nav>
 
     <main style="margin-top: 0px;">
         <div class="container pt-4 lgf">
-                    <!-- <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
-                        <button class="btn btn-light" type="submit">Search</button>
-                    </form> -->
-                    <div class="search-container">
+            
+            <nav class="nav justify-content-end pb-3">
+                <div class="search-container position-fixed">
                     <form>
-                        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search.." name="search">
-                        <button type="submit"><i class="fa fa-search"></i></button>
-                      </form>
-                    </div>
-                    <div class="gibrish" id="search">
-                <h2 class="title" id="swob">SWOB v2 Beta testing</h2>
-                <h6>May 31, 2022</h6>
-               <a href="swob.html"> <button type="button" class="btn ">Read more<i class="fa-solid fa-angles-right"></i></button> </a>
-                <br>
-                <br>
-                <br>
-                
+                        <input type="text" id="myInput" onkeyup="search()" placeholder="Search.." name="search">
+                        <button type="search"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </nav>
 
-                <h2 class="title" id="website">Afkanerd launches website</h2>
-                <h6>May 31, 2022</h6>
-                <a href="IP.html"> <button type="button" class="btn ">Read more<i class="fa-solid fa-angles-right"></i></button> </a>
-                <br>
-                <br>
-                <br>
-                    </div>
+            <div class="topics" id="topics">
 
-                <!-- <h2 class="title" id="results">Afkanerd launches website</h2>
+                <div class="topic">
+                    <h2 class="title" id="swob">SWOB v2 Beta testing</h2>
+                    <h6>May 31, 2022</h6>
+                    <a href="swob.html"> <button type="button" class="btn ">Read more<i
+                                class="fa-solid fa-angles-right"></i></button> </a>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+
+
+                <!-- <div class="topic">
+                    <h2 class="title" id="website">Afkanerd launches website</h2>
+                    <h6>May 31, 2022</h6>
+                    <a href="IP.html"> <button type="button" class="btn ">Read more<i
+                                class="fa-solid fa-angles-right"></i></button> </a>
+                    <br>
+                    <br>
+                    <br>
+                </div> -->
+
+
+                <div class="topic">
+                    <h2 class="title" id="website">SWOB Open API</h2>
+                    <h6>May 31, 2022</h6>
+                    <a href="OpenAPI.html"> <button type="button" class="btn ">Read more<i
+                                class="fa-solid fa-angles-right"></i></button> </a>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+
+
+                <div class="topic">
+                    <h2 class="title" id="website">CHPRIS</h2>
+                    <h6>May 31, 2022</h6>
+                    <a href="IP.html"> <button type="button" class="btn ">Read more<i
+                                class="fa-solid fa-angles-right"></i></button> </a>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+
+
+                <div class="topic">
+                    <h2 class="title" id="website">Developers needed</h2>
+                    <h6>May 31, 2022</h6>
+                    <a href="IP.html"> <button type="button" class="btn ">Read more<i
+                                class="fa-solid fa-angles-right"></i></button> </a>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+
+            </div>
+
+            <!-- <h2 class="title" id="results">Afkanerd launches website</h2>
                 <h6>May 31, 2022</h6>
                 <a href="swob.html"> <button type="button" class="btn ">Read more<i class="fa-solid fa-angles-right"></i></button> </a>
                 <br>
@@ -75,34 +117,36 @@
                 <br> -->
 
 
-                <div>
-                <a href="swob.html"> <button type="button" class="btn "><i class="fa-solid fa-angles-left"></i>Newer</i></button> </a> &nbsp;
-                <a href="swob.html"> <button type="button" class="btn ">Prev<i class="fa-solid fa-angles-right"></i></button> </a>
-                </div>
-
-                <br>
-                <br>
-                <br>
-                
-
-
-
-                <!-- end of col -->
-
-
+            <div>
+                <a href="swob.html"> <button type="button" class="btn "><i
+                            class="fa-solid fa-angles-left"></i>Newer</i></button> </a> &nbsp;
+                <a href="swob.html"> <button type="button" class="btn ">Prev<i
+                            class="fa-solid fa-angles-right"></i></button> </a>
             </div>
+
+            <br>
+            <br>
+            <br>
+
+
+
+
+            <!-- end of col -->
+
+
+        </div>
 
     </main>
 
 
-        <!--javascript code for bootstrap-->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-            integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-            integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
-        </script>
-        <script src="script.js"></script>
+    <!--javascript code for bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>

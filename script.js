@@ -1,10 +1,21 @@
-function myFunction() {
+const search = () =>{
+    const searchbox = document.getElementById("myInput").value.toUpperCase();
+    const topics = document.getElementById("topics")
+    const topic = document.querySelectorAll(".topic")
+    const tname = topics.getElementsByTagName("h2")
 
-    var input, filter, swob, website, h2, h6, txtvalue;
-    input = document.getElementById('myInput');
-    filter = input.ariaValueMax.toUpperCase();
-    swob = document.getElementById("swob");
-    website = document.getElementById("website");
+    for(var i=0; i < tname.length; i++){
+        let match = topic[i].getElementsByTagName('h2')[0];
 
-    
+        if(match){
+            let textvalue = match.textContent || match.innerHTML
+
+            if(textvalue.toUpperCase().indexOf(searchbox) > -1){
+                topic[i].style.display = "";
+            } else{
+                topic[i].style.display = "none";
+            }
+        }
+    }
 }
+

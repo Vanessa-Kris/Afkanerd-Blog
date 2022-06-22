@@ -47,7 +47,7 @@ body {
 .lgf {
     width: 90%;
     height: 100vh;
-    padding-left: 80px;
+    padding-left: 90px;
     background-color: #ffffff;
 }
 
@@ -84,16 +84,21 @@ body {
 
 .sidebar .icons {
     position: relative;
-    line-height: 300px;
+    line-height: 260px;
     text-align: center;
 }
 
-.fa,
+
 .fa-brands,
 .fa-solid {
-    width: 38px;
+    width: 20px;
     color: #ffffff;
-     display: inline-flex; 
+    display: inline-flex; 
+   
+}
+
+.fa {
+    color: #ffffff;
 }
 
 .fa:hover {
@@ -120,14 +125,15 @@ body {
 
 
 
-.lgf .search-container {
+/* .lgf .search-container {
     float: right;
-}
+} */
 
 .lgf input[type=text] {
     padding: 5px;
     margin-top: 8px;
     font-size: 17px;
+    width: 200px;
 }
 
 .lgf .search-container button {
